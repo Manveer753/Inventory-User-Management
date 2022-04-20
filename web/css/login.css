@@ -1,0 +1,88 @@
+html, * {
+    margin: 0%;
+    font-size: 16px;
+}
+
+body {
+    background-color: #FDF5DF;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+
+.forms-container {
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.forms-container label {
+    font-weight: bold;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.login-form, .register-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #5EBEC4;
+    width: 40%;
+    min-width: 350px;
+    padding: 2rem;
+}
+
+.form-field {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+.form-field > label {
+    order: 1;
+    width: 10rem;
+    padding-right: .5rem;
+}
+
+.form-field > input {
+    order: 2;
+    flex: 1 1 auto;
+    border: none;
+    border-radius: 3px;
+    background-color: #FDF5DF;
+}
+
+.form-btn {
+    width: 7rem;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    background-color: #FDF5DF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

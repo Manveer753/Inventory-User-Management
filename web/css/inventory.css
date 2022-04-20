@@ -1,0 +1,152 @@
+html, * {
+    margin: 0%;
+    font-size: 16px;
+}
+
+body {
+    background-color: #FDF5DF;
+}
+
+.nav-bar {
+    width: 100%;
+    background-color: #5EBEC4;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-bar-link {
+    padding: 0.5rem;
+}
+
+.nav-bar-link:hover {
+    text-decoration: underline;
+}
+
+.nav-bar-link > a {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.heading {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 3rem;
+    margin-right: 7rem;
+}
+
+.logout-btn {
+    width: 7rem;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #5EBEC4;
+}
+
+.add-item-form, .edit-item-form {
+    width: 50%;
+    margin: 3rem 0 2rem 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #5EBEC4;
+    min-width: 350px;
+    padding: 1rem;
+    padding-bottom: 0;
+    border-radius: 3px;
+}
+
+.form-heading {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.form-outer li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0.2rem;
+}
+
+.form-outer > li > input {
+    background-color: #FDF5DF;
+    border-radius: 3px;
+    border: none;
+}
+
+.form-outer > li > label {
+    flex: 1 0 120px;
+    max-width: 220px;
+    font-weight: bold;
+}
+
+.form-outer > li > label + * {
+    flex: 1 0 220px;
+}
+
+.form-btn {
+    width: 7rem;
+    border: none;
+    border-radius: 3px;
+    font-size: 1rem;
+    color: black;
+    background-color: #FDF5DF;
+}
+
+.info-table {
+    width: 80%;
+    margin: 0 auto 0 auto;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: #5EBEC4;
+}
+
+.form-headings, .item-edits {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    padding: 0.5rem;
+    margin: 0.5rem;
+    list-style-type: none;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-headings span,.item-edits li {
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 0.5em;
+    background-color: #FDF5DF;
+}
+
+.form-headings span {
+    font-size: 1.5rem;
+}
+
+.edit-item-btn {
+    width: 7rem;
+    border: none;
+    border-radius: 3px;
+    font-size: 1rem;
+    color: white;
+    background-color: #5EBEC4;
+}
+
+.msg {
+    color: black;
+    font-size: 2rem;
+    margin-left: 10%;
+}
